@@ -25,6 +25,12 @@ header {
   padding: 30px 10%;
 }
 
+canvas {
+  width: 5%;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
 .about_me {
   background-color: rgb(101, 57, 110) ;
   padding: 50px 0%;
