@@ -7,7 +7,7 @@
 }
 
 body{
-  background: linear-gradient(90deg, rgb(10, 109, 45) 0%, rgb(89, 158, 113) 35%, rgb(178, 220, 194) 100%);
+  background: linear-gradient(90deg, rgb(40, 0, 41) 0%, rgb(101, 57, 110) 35%, rgb(243, 207, 255) 100%);
 }
 
 li, a, button {
@@ -25,6 +25,61 @@ header {
   padding: 30px 10%;
 }
 
+.about_me {
+  background-color: rgb(101, 57, 110) ;
+  padding: 50px 0%;
+  border-radius: 10px;
+  /* margin-top: 20px; */
+  margin-left: 120px;
+  margin-right: 120px;
+  /* bottom: 20px; */
+}
+
+.about_me h1 {
+  /* top: 20px; */
+  padding: 10px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #edf0f1;
+  text-decoration: none;
+  position: relative;
+  left: 120px;
+}
+
+.about_me img {
+  padding: 10px 120px;
+  float: right;
+  width: 55%;
+}
+
+.about_me p {
+  /* top: 30px; */
+  padding: 10px 10px;
+  left: 120px;
+  width: 30%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: #edf0f1;
+  text-decoration: none;
+  position: relative;
+}
+
+.about_me button {
+  /* top: 50px; */
+  /* padding: 9px 25px; */
+  /* width: 30%; */
+  padding: 10px 10px;
+  background-color: rgb(40, 0, 41) 0%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  left: 120px;
+  transition: all 0.3s ease 0s;
+}
+
 .nav_links {
   list-style: none;
 }
@@ -39,12 +94,12 @@ header {
 }
 
 .nav_links li a:hover {
-  color: rgba(66, 153, 91, 0.971);
+  color: rgb(101, 57, 110);
 }
 
 button {
   padding: 9px 25px;
-  background-color: rgba(17, 128, 49, 0.971);
+  background-color: rgb(90, 44, 100);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -52,46 +107,5 @@ button {
 }
 
 button:hover {
-  background-color: rgba(66, 153, 91, 0.971);
-}
-
-.icon-bar {
-  display: inline-block;
-  width: 20%; /* Full-width */
-  background-color: transparent; /* Dark-grey background */
-  overflow: auto; /* Overflow due to float */
-}
-
-.icon-bar a {
-  float: left; /* Float links side by side */
-  font-style: italic;
-  text-align: center; /* Center-align text */
-  width: 50%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 10px 0; /* Some top and bottom padding */
-  transition: all 0.3s ease; /* Add transition for hover effects */
-  color: white; /* White text color */
-  font-size: 30px; /* Increased font size */
-}
-
-.icon-bar a:hover {
-  background-color: rgba(66, 153, 91, 0.971); /* Add a hover color */
-}
-
-.icon-bar b {
-  float: left; /* Float links side by side */
-  font-style: italic;
-  text-align: center; /* Center-align text */
-  width: 80%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 10px 0; /* Some top and bottom padding */
-  transition: all 0.3s ease; /* Add transition for hover effects */
-  color: white; /* White text color */
-  font-size: 30px; /* Increased font size */
-}
-
-.icon-bar b:hover {
-  background-color: rgba(66, 153, 91, 0.971); /* Add a hover color */
-}
-
-.active {
-  background-color: #04AA6D; /* Add an active/current color */
+  background-color: rgb(40, 0, 41);
 }
