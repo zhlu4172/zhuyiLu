@@ -5,7 +5,7 @@ var allPics = [
   "resources/pics/bondi.jpg",
   "resources/pics/cc.jpg",
   "resources/pics/gc.jpg",
-  "resources/pics/aboutMe.jpg",
+  "resources/pics/aboutme.jpg",
 ];
 var index = 0;
 
